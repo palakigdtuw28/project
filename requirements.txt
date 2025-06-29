@@ -1,0 +1,9 @@
+streamlit
+python-docx
+pdfplumber
+gTTS
+streamlit-mic-recorder
+google-generativeai
+python-dotenv
+requests
+streamlit-float
