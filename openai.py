@@ -165,5 +165,5 @@ if submitted and user_input:
         except Exception as e:
             bot_reply = f"⚠ Error: {e}"
 
-    st.chat_message("assistant").markdown(bot_reply)
+    st.chat_message("assistant", Avatar="OIP.webp").markdown(bot_reply)
     st.session_state.messages.append({"role": "assistant", "content": bot_reply})
